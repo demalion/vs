@@ -1,0 +1,12 @@
+Create a git 
+Создать БД vsdb 
+Создать таблицу в БД для сетов - sets
+Создать модель  Set / контроллер / заполнить таблицу sets данными при помощи seeder  
+    Create a Set model
+    Create a Set db migration
+    Think about fields
+Создать Vue компонент для отображения и работы с sets
+Связать БД и компонет Vue 
+Create a page with sets  with deleting, addin, editing, viewing, etc component
+Paginate
+Add a possibility to bind with Scryfall.com API to fetch MTG sets datas and filling my vsdb DB
