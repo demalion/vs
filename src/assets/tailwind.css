@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@font-face {
+  font-family: "Vampiro";
+  font-weight: 400;
+  src: url("../../public/fonts/Vampiro_One/VampiroOne-Regular.ttf") format("truetype");
+}; 

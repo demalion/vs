@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Vampiro";
+        font-weight: 400;
+        src: url("../../public/fonts/Vampiro_One/VampiroOne-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "Violet";
+        font-weight: 400;
+        src: url("../../public/fonts/violet-sans/VioletSans-Regular.woff2") format("woff2");
+    }    
+}; 
+
+/* css variables for color customizing in tailwind.config.js
+    :root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+  } */
