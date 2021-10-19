@@ -3,7 +3,7 @@
   <Header/>
   <!-- <Filters/> -->
     <main>
-      
+      <Body/>
 
     </main>
   </div>
@@ -12,6 +12,7 @@
 <script>
 
 import Header from './components/Header'
+import Body from './components/Body'
 //import Filters from './components/Filters'
 
 export default {
@@ -20,6 +21,7 @@ export default {
 
   components: {
     Header,
+    Body,
 //    Filters,
   }
 }

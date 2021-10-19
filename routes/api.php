@@ -6,6 +6,7 @@ use App\Http\Resources\SetResource;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,4 +45,16 @@ Route::post("/sets", function(Request $request){
         'release_date'  => $request->release_date,
         'icon_svg_uri'  => $request->icon_svg_uri,
     ]);
+});
+
+//delete set
+Route::delete("/sets/{id}", function($id){
+
+    //with DB facade
+    //DB::table('sets')->where('id', $id)->delete();
+
+    $set = Set::find(1)->where('id',$id);
+    $set->delete();
+
+    return 204;
 });
