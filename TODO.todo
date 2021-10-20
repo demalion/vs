@@ -5,9 +5,9 @@
     ✔ Create a Set model @done(21-10-13 10:58)
     ✔ Create a Set db migration @done(21-10-13 10:59)
     Think about fields
-Создать Vue компонент для отображения и работы с api/sets
-Связать БД и компонет Vue 
-Create a page with sets  with deleting, addin, editing, viewing, etc component
-    ✔ Create a api route for Set model with GET POST and Delete methods, testing that in Postman @done(21-10-13 14:25)
-Paginate
-Add a possibility to bind with Scryfall.com API to fetch MTG sets datas and filling my vsdb DB
+☐ Создать Vue компонент для отображения и работы с api/sets @started(21-10-20 10:10)
+    Связать БД и компонет Vue @done(21-10-20 17:03)
+    Create a page with sets with deleting, addin, editing, viewing, etc component
+    Paginate
+    Add a possibility to bind with Scryfall.com API to fetch MTG sets datas and filling my vsdb DB
+✔ Create a api route for Set model with GET POST and Delete methods, testing that in Postman @done(21-10-13 14:25)
